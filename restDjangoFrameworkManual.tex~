@@ -4,18 +4,13 @@
 \usepackage{hyperref} %\Url Links
 \usepackage{nameref}
 \usepackage{caption}
-\usepackage{url}
-\usepackage{multimedia}
-%\usepackage{pdfpages}
 \usepackage[final]{pdfpages}
 \usepackage{textpos}
 \usepackage{graphicx}
 \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}
 % \usepackage[T1]{fontenc}
 \usepackage{array} %\professional tables
 \usepackage{lmodern}% http://ctan.org/pkg/lm (For special Fonts)
-\usepackage{anyfontsize}
 
 \mode<presentation>
 \setbeamertemplate{blocks}[rounded][shadow=true]
