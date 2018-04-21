@@ -1,0 +1,11 @@
+\select@language {english}
+\beamer@sectionintoc {3}{Group Members}{8}{0}{1}
+\beamer@subsectionintoc {3}{1}{Group members positions and responsibilities}{8}{0}{1}
+\beamer@sectionintoc {4}{Wireless Platform}{11}{0}{2}
+\beamer@subsectionintoc {4}{1}{Key Factors and Components}{11}{0}{2}
+\beamer@subsectionintoc {4}{2}{Best and Worst Performance Based on Positioning}{15}{0}{2}
+\beamer@sectionintoc {5}{Implementation}{21}{0}{3}
+\beamer@subsectionintoc {5}{1}{Neural Network Algorithm Implementation}{21}{0}{3}
+\beamer@sectionintoc {6}{Summary}{24}{0}{4}
+\beamer@subsectionintoc {6}{1}{Key points repetition}{24}{0}{4}
+\beamer@sectionintoc {7}{Bibliography}{31}{0}{5}

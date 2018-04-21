@@ -1,0 +1,12 @@
+\begin{frame}[noframenumbering]
+  \begin{center}
+    % Upper part of the page
+    %\vspace*{3.0em}
+    \includegraphics[width=0.15\textwidth]{png/BTH_logo}\\ [0.3cm]    
+
+    \emph{Supervisor:} \\  
+    Prof.~Kulesza\\
+    \textsc{Wlodek} 
+  \end{center}
+  \titlepage
+\end{frame}

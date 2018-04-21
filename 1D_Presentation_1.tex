@@ -1,0 +1,71 @@
+% \documentclass[12pt,handout,xcolor=pdftex,dvipsnames,table]{beamer} %For handouts.
+\documentclass[xcolor=pdftex,dvipsnames,table]{beamer}
+%\usepackage{pgfpages} %For handouts.
+% This is the file main.tex
+\usepackage{handoutWithNotes}
+\usepackage{pifont} %Symbols package
+\usepackage{hyperref} %\Url Links
+\usepackage{cleveref}
+\usepackage{caption} %caption for figures
+\usepackage{subcaption} %subfigures
+\usepackage{url}
+\usepackage{multimedia}
+\usepackage[final]{pdfpages}
+\usepackage{textpos}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{array} %\professional tables
+\usepackage{lmodern}% http://ctan.org/pkg/lm (For special Fonts)
+
+\mode<presentation>
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\usetheme{Dresden} % so so
+\setbeamertemplate{navigation symbols}{} %take out the navigation symbols
+\setbeamertemplate{caption}[numbered] %enumerate the caption and tables
+\usefonttheme[stillsansseriflarge]{structureitalicserif}
+\expandafter\def\expandafter\insertshorttitle\expandafter{%
+  \insertshorttitle\hfill\insertframenumber\,/\,\inserttotalframenumber}%page numbering
+  
+%\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}} %For handouts.
+% \pgfpagesuselayout{4 on 1 with notes}[a4paper,border shrink=5mm]
+  
+%\makeatletter %reset the numbering on the subfigures (1)
+%\@addtoreset{subfigure}{figure} %reset the numbering on the subfigures (2)
+%\makeatother %reset the numbering on the subfigures (3)
+
+%For Large figures
+%\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{SMS}
+
+\title{Demonstration User Manual} % (optional, only for long titles)
+\subtitle{
+  \href{https://github.com/thanos1983/Python2-Dango-REST-API}
+    {GitHub Project: Python2-Dango-REST-API} }
+\author[Athanasios Garyfalos]{Date: \today} % (optional, for multiple authors)
+% {A.~Garyfalos \and A.~Garyfalos2 \and A.~Garyfalos3}
+\institute[garyfalos@cpan.org] % (optional)
+{
+\\
+\medskip
+{
+% \emph{A.atga12@student.bth.se}
+% \emph{Another Author email}
+% \emph{Another Author}
+}
+}
+% \vspace*{-9.5em}
+% \date{Date: \today}
+% \subject{Sample of Work Demonstration Django Rest Framework}
+
+\begin{document}
+
+\input{./title/title.tex}
+\include{./acknowledgements/acknowledgements}
+\include{./contents/contents}
+\include{./introduction/introduction}
+\include{./project_description/project_description}
+\include{./project_implementation/project_implementation}
+\include{./summary/summary}
+\include{./bibliography/bibliography}
+\end{document}
