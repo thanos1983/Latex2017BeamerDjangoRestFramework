@@ -1,68 +1,3 @@
-<<<<<<< HEAD
-\thispagestyle{empty}
-
-\begin{titlepage}
-\begin{center}
-
-\begin{minipage}[c]{0.9\textwidth}
-\begin{flushright} 
-\includegraphics[width=0.2\textwidth]{./logo/BTH_EPS}
-\end{flushright}
-\end{minipage}
-\begin{minipage}[c]{0.9\textwidth}
-\vspace{-1.5cm}
-\begin{flushleft} \large
-\textbf{MA1305}
-\end{flushleft}
-\end{minipage}
-\HRule \\[2.0cm]
-
-%\textsc{ \Huge Examination Questions in Complex Analysis and Transforms - MA1305 }\\[2.0cm]
-
-\textsc{\LARGE Examination Questions in Complex Analysis and Transforms}\\[0.5cm]
-
-%{ \huge \bfseries Athanasios~Garyfalos~\footnote{atga12@student.bth.se} \\ Eldin~Malko\v c~\footnote{B.elma09@student.bth.se} \\[2.0cm] }
-\textsc{\LARGE Athanasios~Garyfalos \\[2.0cm] }
-
-\textsc{\Large All solutions should be well motivated and readable
-It is necessary to get 3 credits to pass}\\[1.5cm]
-
-\textsc{\Large BTH - Blekinge Tekniska Högskola \\[1.5cm] {\large \today}}
-
-\vfill
-\HRule \\[2.0cm]
-
-\begin{minipage}[c]{\textwidth}
-\vspace{-2cm}
-\begin{flushleft} \large
-{\footnotesize \textsc{Blekinge Institute of Technology}}\\
-{\footnotesize \textsc{School of Computing, CCSL}}\\
-{\footnotesize \textsc{Department of Computing}}\\
-{\footnotesize \textsc{Supervisor: Dr.~Arlos~Patrik}}\\
-\end{flushleft}
-\end{minipage}
-
-%\begin{minipage}[c]{\textwidth}
-%\vspace{-2cm}
-%\begin{flushleft} \large
-%{\footnotesize \textsc{Blekinge Institute of Technology}}\\
-%{\footnotesize \textbf{School of Computing, CCSL}}\\
-%{\footnotesize \textbf{Department of Computing}}\\
-%{\footnotesize \textbf{Supervisor: Dr.~Arlos~Patrik}}\\
-%{\footnotesize \textbf{Examiner: Dr. J\"orgen~Nordberg}}\\
-%\end{flushleft}
-%\end{minipage}
-
-% footnotes without numbering
-%\let\thefootnote\relax\footnote{Blekinge Institute of Technology}
-%\let\thefootnote\relax\footnote{School of Computing, CCSL}
-%\let\thefootnote\relax\footnote{Department of Applied Signal Processing}
-%\let\thefootnote\relax\footnote{Supervisor: Dr.~Arlos~Patrik}
-%\let\thefootnote\relax\footnote{Examiner: Dr. J\"orgen~Nordberg}
-
-\end{center}
-\end{titlepage}
-=======
 \begin{frame}[noframenumbering]
   \begin{center}
     % Upper part of the page
@@ -75,4 +10,3 @@ It is necessary to get 3 credits to pass}\\[1.5cm]
   \end{center}
   \titlepage
 \end{frame}
->>>>>>> e29f3472ea06dc9eb9840371a7e3aeb89ebea5fb
