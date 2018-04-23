@@ -1,0 +1,6 @@
+PWD /home/os/Desktop/Research_Methodology/Presentation_1/project_implementation
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT project_implementation.tex
+OUTPUT project_implementation.log
