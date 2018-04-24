@@ -3,17 +3,10 @@
 %\usepackage{pgfpages} %For handouts.
 % This is the file main.tex
 % \usepackage{handoutWithNotes}
-\usepackage{cleveref}
-\usepackage{caption} %caption for figures
-\usepackage{subcaption} %subfigures
-\usepackage{multimedia}
-\usepackage[final]{pdfpages}
-\usepackage{textpos}
 \usepackage{graphicx}
-\usepackage[english]{babel}
-\usepackage[en-US]{datetime2}
-\usepackage{array} %\professional tables
+\usepackage[en-US]{datetime2} % fix warning of \author[*]{\today}
 \usepackage{lmodern}% http://ctan.org/pkg/lm (For special Fonts)
+\usepackage{ragged2e} % justify document
 
 \mode<presentation>
 \setbeamertemplate{blocks}[rounded][shadow=true]
@@ -57,11 +50,11 @@
 \begin{document}
 
 \input{./title/title.tex}
-% \include{./acknowledgements/acknowledgements}
-% \include{./contents/contents}
+\include{./acknowledgements/acknowledgements}
+\include{./contents/contents}
 % \include{./introduction/introduction}
 % \include{./project_description/project_description}
 % \include{./project_implementation/project_implementation}
 % \include{./summary/summary}
-% \include{./bibliography/bibliography}
+\include{./bibliography/bibliography}
 \end{document}
