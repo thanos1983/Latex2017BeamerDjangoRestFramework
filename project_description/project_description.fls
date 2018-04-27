@@ -1,6 +1,7 @@
-PWD /home/os/Desktop/Research_Methodology/Presentation_1/project_description
+PWD /home/tinyos/Downloads/Latex2017BeamerDjangoRestFramework/project_description
 INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT project_description.tex
 OUTPUT project_description.log
